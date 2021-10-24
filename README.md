@@ -49,17 +49,15 @@ Instalar dependências
 
 npm i
 
-Iniciar aplicação localmente
+Iniciando aplicação localmente
 
 npm start
 
-starting the application locally for development nodemon
+Iniciando aplicação localmente em modo desenvolvimento no nodemon
 
 npm run dev
 
 
-## Running tests
-
-tests with code coverage
+## Inicializado Testes
 
 npm test
