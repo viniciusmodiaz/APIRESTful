@@ -24,6 +24,9 @@ https://documenter.getpostman.com/view/11073669/UV5ahGX2
 ## Dependencies
 1. [dotenv](https://www.npmjs.com/package/dotenv)
 2. [nodemon](https://www.npmjs.com/package/nodemon)
+3. [bcryptjs](https://www.npmjs.com/package/bcryptjs)
+4. [chai](https://www.npmjs.com/package/chai)
+5. [uuid](https://www.npmjs.com/package/uuid)
 
 ### External services
 
@@ -45,9 +48,11 @@ SECRET=680f5df3acca979aea7ca3cb7cacff01
 
 ## Inicializado API
 
-Instalar dependências 
+Instalação das dependências 
 
-npm i
+``` bash
+ npm i
+```
 
 Iniciando aplicação localmente
 
