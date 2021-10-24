@@ -8,6 +8,7 @@
 ![Generic badge](https://img.shields.io/badge/jsonwebtoken-8.5.1-red.svg)
 ![Generic badge](https://img.shields.io/badge/uuid-8.3.2-yellow.svg)
 ![Generic badge](https://img.shields.io/badge/bcryptjs-2.4.3-yellow.svg)
+![Generic badge](https://img.shields.io/badge/mocha-9.1.3-yellow.svg)
 
 ## Descrição
 Uma API RESTful de criação de sing up/sign in.
