@@ -1,6 +1,6 @@
 # API RESTful
 
-![Generic badge](https://img.shields.io/badge/api-1.0-purple.svg)
+![Generic badge](https://img.shields.io/badge/-1.0-purple.svg)
 ![Generic badge](https://img.shields.io/badge/nodemon-2.0.14-orange.svg)
 ![Generic badge](https://img.shields.io/badge/mongoose-6.0.11-green.svg)
 ![Generic badge](https://img.shields.io/badge/NodeJs-14.16.0-blue.svg)
@@ -16,6 +16,9 @@ Uma API RESTful de criação de sing up/sign in.
 Authorization: Bearer {{token}}
 
 ---
+### Request Headers
+Content-Type
+application/json
 
 #### Doucmentação da API no POSTMAN
 
@@ -52,14 +55,17 @@ Instalação das dependências
 ```
 
 Iniciando aplicação localmente
-
+``` bash
 npm start
-
+```
 Iniciando aplicação localmente em modo desenvolvimento no nodemon
 
+``` bash
 npm run dev
-
+```
 
 ## Inicializado Testes
 
+``` bash
 npm test
+```
