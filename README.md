@@ -9,42 +9,19 @@
 ![Generic badge](https://img.shields.io/badge/uuid-8.3.2-yellow.svg)
 ![Generic badge](https://img.shields.io/badge/bcryptjs-2.4.3-yellow.svg)
 
-## Description
+## Descrição
 Uma API RESTful de criação de sing up/sign in.
 
-## Usage
-
-### version 1
----
+## USo
 
 ### /v1/token
-It makes a request ... xxx
 
-request example
-
-curl -X 'GET' \
-  'https://xxx' \
-  -H 'accept: application/json' \
-  -H 'x-consumer-system: computer' \
-  -H 'x-user-id: APP' \
 
 ---
 
-#### HEADER
-values required:
-- x-api-key
-- consumer-key
-- x-user-id
+#### Doucmentação da API POSTMAN
 
-
-if any of these values be not passed, a bad request will be returned:
-Javascript
-{
-  "statusCode": 400,
-  "error": "Bad Request",
-  "message": "Invalid request headers input"
-}
-
+https://documenter.getpostman.com/view/11073669/UV5ahGX2
 
 ## Dependencies
 1. [dotenv](https://www.npmjs.com/package/dotenv)
@@ -52,15 +29,20 @@ Javascript
 
 ### External services
 
-1.  [token](https://xxx)
+1.  [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 
 ## Local variables
 
 
-SERVICE_NAME=name
-NODE_ENV=development
-PORT=3001
-HTTPS_PORT=3002
+APP_NAME=API
+DB_CONNECTION=mongodb
+DB_HOST=127.0.0.1
+DB_PORT=27017
+DB_DATABASE=api
+APP_PORT=3000
+APP_SERVER=localhost:
+TOKEN_EXPIRES=1800
+SECRET=680f5df3acca979aea7ca3cb7cacff01
 
 
 ## Running application
@@ -79,8 +61,3 @@ npm run dev
 tests with code coverage
 
 npm test
-
-
-when developing unit tests (it will run the tests every time that a .spec file is saved and breaks in the first broken test expectation)
-
-npm run test:watch
