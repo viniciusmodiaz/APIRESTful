@@ -31,6 +31,8 @@ https://documenter.getpostman.com/view/11073669/UV5ahGX2
 4. [chai](https://www.npmjs.com/package/chai)
 5. [uuid](https://www.npmjs.com/package/uuid)
 6. [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
+7. [mongoose](https://www.npmjs.com/package/mongoose)
+8. [mocha](https://www.npmjs.com/package/mocha)
 
 ## Local variables
 
