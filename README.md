@@ -29,10 +29,6 @@ https://documenter.getpostman.com/view/11073669/UV5ahGX2
 5. [uuid](https://www.npmjs.com/package/uuid)
 6. [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 
-### External services
-
-1.  [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
-
 ## Local variables
 
 
