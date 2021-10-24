@@ -12,10 +12,8 @@
 ## Descrição
 Uma API RESTful de criação de sing up/sign in.
 
-## USo
-
-### /v1/token
-
+### /jsonwebtoken
+Authorization: Bearer {{token}}
 
 ---
 
@@ -45,9 +43,13 @@ TOKEN_EXPIRES=1800
 SECRET=680f5df3acca979aea7ca3cb7cacff01
 
 
-## Running application
+## Inicializado API
 
-starting the application locally
+Instalar dependências 
+
+npm i
+
+Iniciar aplicação localmente
 
 npm start
 
