@@ -1,7 +1,7 @@
 # API RESTful
 
 ![Generic badge](https://img.shields.io/badge/maintainer-1.0-purple.svg)
-![Generic badge](https://img.shields.io/badge/version-1.0.0-orange.svg)
+![Generic badge](https://img.shields.io/badge/nodemon-2.0.14-orange.svg)
 ![Generic badge](https://img.shields.io/badge/mongoose-6.0.11-green.svg)
 ![Generic badge](https://img.shields.io/badge/NodeJs-14.16.0-blue.svg)
 ![Generic badge](https://img.shields.io/badge/express-4.17.1-blue.svg)
@@ -27,6 +27,7 @@ https://documenter.getpostman.com/view/11073669/UV5ahGX2
 3. [bcryptjs](https://www.npmjs.com/package/bcryptjs)
 4. [chai](https://www.npmjs.com/package/chai)
 5. [uuid](https://www.npmjs.com/package/uuid)
+6. [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 
 ### External services
 
