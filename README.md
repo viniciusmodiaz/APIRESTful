@@ -17,7 +17,7 @@ Authorization: Bearer {{token}}
 
 ---
 
-#### Doucmentação da API POSTMAN
+#### Doucmentação da API no POSTMAN
 
 https://documenter.getpostman.com/view/11073669/UV5ahGX2
 
