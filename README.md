@@ -12,7 +12,7 @@
 ## Descrição
 Uma API RESTful de criação de sing up/sign in.
 
-### /jsonwebtoken
+### token/jsonwebtoken
 Authorization: Bearer {{token}}
 
 ---
