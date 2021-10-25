@@ -26,7 +26,7 @@ application/json
 
 https://documenter.getpostman.com/view/11073669/UV5ahGX2
 
-## dependência
+## Dependência
 1. [dotenv](https://www.npmjs.com/package/dotenv)
 2. [nodemon](https://www.npmjs.com/package/nodemon)
 3. [bcryptjs](https://www.npmjs.com/package/bcryptjs)
