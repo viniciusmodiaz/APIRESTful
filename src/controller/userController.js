@@ -7,9 +7,9 @@ const router = express.Router();
 
 router.use(authMiddlere);
 
-router.get('/:_id', async (req, res) => {
+router.get('/:user_id', async (req, res) => {
     try {
-        const user = await User.findOne( {_id: req.params._id });
+        const user = await User.findOne( {_id: req.params.user_id });
 
         if(!user){
             return res.status(error.userNotFound.statusCode).send({ error: error.userNotFound.message });

@@ -1,15 +1,15 @@
 const error = {
     userNotFound: {
         message: 'Usuário não encontrado',
-        statusCode: 400,
+        statusCode: 404,
     },
     errorUserExist:{
         message: 'E-mail já existente',
-        statusCode: 400,
+        statusCode: 409,
     },
     errorRegister: {
         message: 'Falha ao cadastrar',
-        statusCode: 400,
+        statusCode: 500,
     },
     errorAuthenticate: {
         message: 'Erro na autenticação',
@@ -20,17 +20,13 @@ const error = {
         statusCode: 403,
     },
     errorUserDataAuthenticate: {
-        message: 'Erro na autenticação',
+        message: 'Usuário e/ou senha inválidos"s',
         statusCode: 401,
     },   
     errorInvalidSession: {
         message: 'Sessão inválida',
         statusCode: 401,
-    },   
-    pageNotFound: {
-        message: 'Page not found',
-        statusCode: 404,
-    },
+    }
 };
 
 module.exports = error;

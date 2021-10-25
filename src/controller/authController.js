@@ -32,6 +32,10 @@ router.post('/register', async (req, res) => {
 router.post('/authenticate', async (req, res) => {
     const { email, senha } = req.body;
 
+    if(!senha){
+        return res.status(error.errorUserDataAuthenticate.statusCode).send({ error: error.errorUserDataAuthenticate.message });
+    }
+    
     let user = await User.findOne({ email }).select('+senha');
 
     if(!user){
