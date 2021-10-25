@@ -12,7 +12,7 @@
 ![Generic badge](https://img.shields.io/badge/mongoose-6.0.11-yellow.svg)
 
 ## Descrição
-Uma API RESTful de criação de sing up/sign in.
+Uma API RESTful para criação de sing up/sign in.
 
 ### token/jsonwebtoken
 Authorization: Bearer {{token}}
