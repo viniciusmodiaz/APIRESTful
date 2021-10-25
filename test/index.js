@@ -12,7 +12,7 @@ let id;
 describe('User', function() {
     
     before(function(done) {
-        User.deleteOne({}, function() {
+        User.deleteOne({ email: "vinicusmodiaz@gmail.com" }, function() {
             done();
         });
     });
