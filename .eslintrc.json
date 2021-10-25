@@ -1,0 +1,29 @@
+{
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module",
+        "ecmaFeature": {
+            "impliedStrict": false
+        }
+    },
+    "rules": {
+        "consistent-return": "off",
+        "max-len": ["error", 140, 2, {
+            "ignoreComments": true
+        }],
+        "no-multiple-empty-lines": ["error", {
+            "max": 2,
+            "maxEOF": 1
+        }],
+        "func-names": "off",
+        "no-unused-vars": ["error", {
+            "vars": "local",
+            "args": "after-used"
+          }]
+    }
+}
