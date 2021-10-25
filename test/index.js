@@ -73,7 +73,7 @@ describe('User', function() {
         });
     })
     describe('/GET', function() {
-        it('Deve procurar e retornar um usuário específico', function(done) {
+        it('Deve procurar e retornar o usuário especificado', function(done) {
             chai.request(process.env.APP_SERVER+process.env.APP_PORT)
             .get('/user/'+id)
             .set({ "Authorization": `Bearer ${token}` })
