@@ -12,7 +12,7 @@
 ![Generic badge](https://img.shields.io/badge/mongoose-6.0.11-yellow.svg)
 
 ## Descrição
-Uma API RESTful de criação de sing up/sign in.
+Uma API RESTful para criação de sing up/sign in.
 
 ### token/jsonwebtoken
 Authorization: Bearer {{token}}
@@ -26,7 +26,7 @@ application/json
 
 https://documenter.getpostman.com/view/11073669/UV5ahGX2
 
-## Dependencies
+## Dependência
 1. [dotenv](https://www.npmjs.com/package/dotenv)
 2. [nodemon](https://www.npmjs.com/package/nodemon)
 3. [bcryptjs](https://www.npmjs.com/package/bcryptjs)
@@ -50,7 +50,7 @@ TOKEN_EXPIRES=1800
 SECRET=680f5df3acca979aea7ca3cb7cacff01
 
 
-## Inicializado API
+## Inicializando API
 
 Instalação das dependências 
 
@@ -68,7 +68,7 @@ Iniciando aplicação localmente em modo desenvolvimento no nodemon
 npm run dev
 ```
 
-## Inicializado Testes
+## Inicializando Testes
 
 ``` bash
 npm test
