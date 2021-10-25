@@ -8,7 +8,7 @@
     "dev": "nodemon dev src/index.js",
     "precommit": "npm run lint",
     "lint": "./node_modules/.bin/eslint .",
-    "test": "mocha"
+    "test": "nodemon src/index.js --exec \"mocha ./test/index.js\""
   },
   "keywords": [],
   "author": "Vinicius Moraes Diaz",
