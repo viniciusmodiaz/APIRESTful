@@ -50,7 +50,7 @@ TOKEN_EXPIRES=1800
 SECRET=680f5df3acca979aea7ca3cb7cacff01
 
 
-## Inicializado API
+## Inicializando API
 
 Instalação das dependências 
 
@@ -68,7 +68,7 @@ Iniciando aplicação localmente em modo desenvolvimento no nodemon
 npm run dev
 ```
 
-## Inicializado Testes
+## Inicializando Testes
 
 ``` bash
 npm test
