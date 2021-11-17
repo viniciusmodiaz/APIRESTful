@@ -26,6 +26,10 @@ const error = {
     errorInvalidSession: {
         message: 'Sessão inválida',
         statusCode: 401,
+    },
+    errorNotFound: {
+        message: 'Page not Found',
+        statusCode: 404,
     }
 };
 

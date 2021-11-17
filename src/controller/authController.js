@@ -64,4 +64,8 @@ router.post('/authenticate', async (req, res) => {
     }
 });
 
+router.get('*', function(req, res){
+    return res.status(error.errorNotFound.statusCode).send({ error: error.errorNotFound.message});
+});
+
 module.exports = app => app.use( '', router);
