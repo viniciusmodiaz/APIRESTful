@@ -58,14 +58,14 @@ Instalação das dependências
  npm i
 ```
 
-Crie o Arquivo .env
+Iniciando aplicação localmente
 ``` bash
-cp .env.example .env
+npm start
 ```
-Suba os containers do projeto
+Iniciando aplicação localmente em modo desenvolvimento no nodemon
 
 ``` bash
-docker-compose up -d
+npm run dev
 ```
 
 ## Inicializando Testes
